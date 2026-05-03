@@ -28,8 +28,3 @@ An Arduino project where a button cycles an LED through three modes, with two po
 | Button | 2 |
 | Brightness pot (wiper) | A0 |
 | Blink speed pot (wiper) | A1 |
-
-## Notes
-- Pot outer legs connect to 5V and GND rails
-- 10K resistor from pin 2 to GND as pull-down
-- If breadboard is 830 holes, bridge the power rail gap with a jumper

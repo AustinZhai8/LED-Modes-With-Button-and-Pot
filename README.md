@@ -1,10 +1,6 @@
 # LED Dimmer with Button Modes
 
-<<<<<<< HEAD
 An Arduino project where a button cycles an LED through three modes, with two potentiometers independently controlling brightness and blink speed. Current mode is shown on a 7-segment display.
-=======
-An Arduino project where a button cycles an LED through three modes, with two potentiometers independently controlling brightness and blink speed.
->>>>>>> e8a018ecb7b99e0c6e1dd740da3f9d9bf58717d9
 
 ## Modes
 - **Mode 0:** LED off
@@ -20,12 +16,8 @@ An Arduino project where a button cycles an LED through three modes, with two po
 ## Components
 - Arduino Uno
 - LED
-<<<<<<< HEAD
 - 7-segment display (5161AS)
 - 220R resistor x2
-=======
-- 220R resistor
->>>>>>> e8a018ecb7b99e0c6e1dd740da3f9d9bf58717d9
 - 10K resistor
 - Tactile button
 - 2x potentiometer
@@ -37,7 +29,6 @@ An Arduino project where a button cycles an LED through three modes, with two po
 | Button | 2 |
 | Brightness pot (wiper) | A0 |
 | Blink speed pot (wiper) | A1 |
-<<<<<<< HEAD
 | 7-seg a | 3 |
 | 7-seg b | 4 |
 | 7-seg c | 5 |
@@ -46,5 +37,3 @@ An Arduino project where a button cycles an LED through three modes, with two po
 | 7-seg f | 8 |
 | 7-seg g | 10 |
 | 7-seg common | 220R → GND |
-=======
->>>>>>> e8a018ecb7b99e0c6e1dd740da3f9d9bf58717d9

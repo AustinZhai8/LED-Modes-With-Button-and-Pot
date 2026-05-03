@@ -2,7 +2,6 @@ const int ledPin    = 9;
 const int buttonPin = 2;
 const int potBright = A0;
 const int potBlink  = A1;
-<<<<<<< HEAD
 const int A = 3;
 const int B = 4;
 const int C = 5;
@@ -14,8 +13,6 @@ const int G = 10;
 void zero ();
 void one ();
 void two ();
-=======
->>>>>>> e8a018ecb7b99e0c6e1dd740da3f9d9bf58717d9
 
 int mode = 0;
 
@@ -66,24 +63,17 @@ void loop() {
 
   if (mode == 0) {
     analogWrite(ledPin, 0);
-<<<<<<< HEAD
     zero ();
-=======
->>>>>>> e8a018ecb7b99e0c6e1dd740da3f9d9bf58717d9
   }
   else if (mode == 1) {
     int brightness = map(analogRead(potBright), 0, 1023, 0, 255);
     analogWrite(ledPin, brightness);
-<<<<<<< HEAD
     one ();
-=======
->>>>>>> e8a018ecb7b99e0c6e1dd740da3f9d9bf58717d9
   }
   else if (mode == 2) {
     int brightness = map(analogRead(potBright), 0, 1023, 0, 255);
     step = ((now - eventStartTime) / blinkDelay) % 2;
     analogWrite(ledPin, step ? brightness : 0);
-<<<<<<< HEAD
     two ();
   }
 
@@ -118,9 +108,7 @@ void two (void) {
   digitalWrite (E, HIGH);
   digitalWrite (F, LOW);
   digitalWrite (G, HIGH);
-=======
   }
 
   lastButtonState = buttonState;
->>>>>>> e8a018ecb7b99e0c6e1dd740da3f9d9bf58717d9
 }
